@@ -6,6 +6,7 @@ class Rectangle():
     # It sets an instance variable, "height" to the passed argument, height
 
     # YOUR CODE HERE
+    
 
 
 
@@ -15,6 +16,9 @@ class Rectangle():
     #       "A rectangle with width ____ and height ____"
 
     # YOUR CODE HERE
+    def __str__(width, height):
+        return "A rectangle with width " + width + " and height " + height
+    
 
 
 
